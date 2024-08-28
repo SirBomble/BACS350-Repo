@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
-let weight = prompt("Enter your weight in kilograms: ");
-let height = prompt("Enter your height in meters: ");
+let weight = parseFloat(prompt("Enter your weight in kilograms: "));
+let height = prompt(("Enter your height in meters: "));
 
 let bmi = weight / (height * height);
 
